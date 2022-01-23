@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>GoLinge</title>
+
+
+    <script src="../dist/app.js"></script>
+
+</head>
+
+<body>
+
+    <h1>GoLinge</h1>
+    <p>
+    <form onsubmit="return formSubmit();">
+
+        <label for="day">Ends </label>
+        <select name="day" id="day" required>
+            <option value="0">Today</option>
+            <option value="1">Tomorrow</option>
+        </select>
+
+        <label for="end">at </label>
+        <input type="time" name="end" id="end" required />
+
+
+        <label for="duration">Wash cycle duration:</label>
+        <input type="text" name="duration" id="duration" required value="12" /><span>minutes</span>
+
+        <button type="submit">Compute</button>
+    </form>
+    </p>
+    <p id="output"></p>
+</body>
+
+</html>

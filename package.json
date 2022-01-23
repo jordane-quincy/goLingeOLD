@@ -1,0 +1,27 @@
+{
+  "name": "golinge",
+  "version": "0.0.1",
+  "description": "Minimalist app to easily schedule washing machine cycles",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress",
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordane-quincy/goLinge.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jordane-quincy/goLinge/issues"
+  },
+  "homepage": "https://github.com/jordane-quincy/goLinge#readme",
+  "devDependencies": {
+    "cypress": "^9.3.1",
+    "esbuild": "^0.14.11"
+  },
+  "dependencies": {
+    "dayjs": "^1.10.7"
+  }
+}
